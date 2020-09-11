@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>phonebook</title>
+  <style>
+    div {
+      display: flex;
+      justify-content: center;
+    }
+
+    table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+
+    td, th {
+      width: 400px;
+      padding: 10px 0;
+      text-align: center;
+      font-size: 24px;
+    }
+
+    th {
+      background-color: yellow;
+    }
+
+    @media only screen and (max-width: 768px) {
+      th {
+        background-color: yellowgreen;
+      }
+      td, th {
+        width: 300px;
+        padding: 5px;
+        font-size: 20px;
+      }
+    }
+      
+    @media only screen and (max-width: 480px) {
+      th {
+        background-color: greenyellow;
+      }
+      td, th {
+        width: 200px;
+        padding: 0;
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Tel no.</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>TA Tle</td>
+          <td>083-4284942</td>
+        </tr>
+        <tr>
+          <td>KFC</td>
+          <td>1150</td>
+        </tr>
+        <tr>
+          <td>Pizza Hut</td>
+          <td>1150</td>
+        </tr>
+        <tr>
+          <td>Yayoi-ยาโยอิ</td>
+          <td>1642</td>
+        </tr>
+        <tr>
+          <td>Mcdonald</td>
+          <td>1711</td>
+        </tr>
+        <tr>
+          <td>Chester Grill</td>
+          <td>1145</td>
+        </tr>
+        <tr>
+          <td>Burger King</td>
+          <td>1112</td>
+        </tr>
+        <tr>
+          <td>The Pizza Company</td>
+          <td>1112</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>
