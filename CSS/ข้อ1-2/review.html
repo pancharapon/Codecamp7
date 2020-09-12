@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>review</title>
+  <style>
+    body {
+      width: 95%;
+      margin: 0 auto;
+    }
+
+    table, tr, td, th {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 10px 20px;
+    }
+
+    table {
+      margin: 10px 0;
+    }
+
+    p {
+      padding-left: 20px;
+    }
+
+
+
+  </style>
+</head>
+<body>
+  <table>
+    <thead>
+      <tr>
+        <th>CSS syntax</th>
+        <th>CSS writing</th>
+        <th>selector</th>
+        <th>combinator</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Selector { properties: value , }</td>
+        <td>inline CSS, Internal CSS, External CSS</td>
+        <td>id, class, pseudo element, pseudo class, attribute selector</td>
+        <td>, space > + ~</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>For example css syntax</h2>
+  <p>Selector { properties: value }</p>
+
+  <h2>For example css writing</h2>
+  <p>Inline CSS: &lt;h2 style="properties(n): value(n)" &gt;Hello word&lt;/h2&gt;</p>
+  <p>Internal CSS: &lt;style&gt; Selector1 { properties(n): value(n) } Selector2 { properties(n): value(n)} .... Selector(n) {properties(n): value(n)}&lt;/style&gt;</p>
+  <p>External CSS: Selector1 { properties(n): value(n) } Selector2 { properties(n): value(n)} .... Selector(n) {properties(n): value(n)}</p>
+
+  <h2>selector example case</h2>
+  <p>id use #id</p>
+  <p>class use .class</p>
+  <p>pseudo class use :</p>
+  <p>pseudo element use ::</p>
+  <p>attribute selector use tag[attribute (~, |, ^, $, *, none)= value]</p>
+
+  <h2>combinator example</h2>
+  <p>(,): selector1, selector2, ... , selector(n)</p>
+  <p>(space): selector1 selector2 ... selector(n)</p>
+  <p>(>): selector1 > selector2 > ... > selector(n)</p>
+  <p>(+): selector1 + selector2 + ... + selector(n)</p>
+  <p>(~): selector1 ~ selector2 ~ ... ~ selector(n)</p>
+  <p>(multiple): selector1 (, or space or > or + or !) selector2 (, or space or > or + or !) ... (, or space or > or + or !) selector(n) </p>
+  <hr>
+
+  <table>
+    <thead>
+      <tr>
+        <th>property</th>
+        <th>value</th>
+        <th>unit</th>
+        <th>differentiation</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>รูปแบบหรือลักษณะหรือคุณสมบัติ ที่กำหนดให้แก่ selector</td>
+        <td>ค่าต่างๆที่ทำให้เกิดการเปลี่ยนแปลงของ propertie นั้นๆ</td>
+        <td>หน่วยของ value ของ propertie ที่ต้องกำหนดหน่วยให้แก่ value</td>
+        <td>property คือรูปแบบหรือลักษณะหรือคุณสมบัติ, value คือค่าที่กำหนดการเปลี่ยนแปลงของ property นั้นๆ</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>CSS Decoration</h2>
+  <p>เอาไว้จัดรูปแบบต่างๆ หรือ การตกแต่งต่างๆ/p>
+  <h2>CSS Layout</h2>
+  <p>เอาไว้จัดวางตำแหน่ง การจัดรูปแบบตำแหน่งของการแสดงผล</p>
+  <h2>Value Unit</h2>
+  <p>-Absolute Lengths</p>
+  <p>-Relative Lengths</p>
+</body>
+</html>

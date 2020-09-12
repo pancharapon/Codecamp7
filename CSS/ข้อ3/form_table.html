@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <form action="">
+    <table>
+      <tr>
+        <td><label for="Name">Name <span class="red">*</span>:</label></td>
+        <td><input type="text"> <i class="fa fa-question-circle" title="input name" style="font-size: 14px; color: rgb(200, 202, 42);"></i></td>
+      </tr>
+      <tr>
+        <td><label for="Tab Text">Tab Text <span class="red">*</span>:</label></td>
+        <td><input type="text"> <i class="fa fa-question-circle" title="input tab text" style="font-size: 14px; color: rgb(200, 202, 42);" ></i></td>
+      </tr>
+      <tr>
+        <td><label for="URL">URL <span class="red">*</span>:</label></td>
+        <td><span>http://www.wizehive.com/webform/</span><input type="text" class="URL" style="width: 10vw;"></td>
+      </tr>
+      <tr>
+        <td class="space1"></td>
+        <td class="space1"></td>
+      </tr>
+      <tr>
+        <td colspan="2" class="SETUP"><div>FORM SETUP</div></td>
+      </tr>
+      <tr>
+        <td class="space2"><label for="Form">Form:</label></td>
+        <td class="space2"><select name="Form" id="Form">
+          <option value=""></option>
+          <option value="Form1">Form1</option>
+          <option value="Form2">Form2</option>
+          <option value="Form3">Form3</option>
+        </select>
+        <button>Edit</button></td>
+      </tr>
+      <tr>
+        <td><label for="Logo">Logo:</label></td>
+        <td><span style="display: inline-block; width:15vw;">no logo uploaded</span>
+        <button>Upload Logo</button></td>
+      </tr>
+      <tr>
+        <td><label for="Template">Template Text: </label></td>
+        <td><select name="Template" id="Template">
+          <option value="English">English</option>
+          <option value="Thai">Thai</option>
+          <option value="Germany">Germany</option>
+          <option value="French">French</option>
+        </select>
+        <button>Edit</button></td>
+      </tr>
+      <tr>
+        <td><label for="ReviewForm">Review Form: </label></td>
+        <td><select name="ReviewForm" id="ReviewForm">
+          <option value="Default">Default</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+        </select></td>
+      </tr>
+      <tr>
+        <td><label for="ReviewScore">Review Score: </label></td>
+        <td><select name="ReviewScore" id="ReviewScore">
+          <option value="Rating">Rating</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+        </select>
+        <button>Reload Fields</button></td>
+      </tr>
+      <tr>
+        <td><label for="Scoring Type">Scoring Type: </label></td>
+        <td><select name="Scoring Type" id="Scoring Type" class="Scoring">
+          <option value="Average">Average</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+        </select></td>
+      </tr>
+      <tr>
+        <td><label for="Max Score">Max Score: </label></td>
+        <td><input type="text" name="Max Score" id="Max Score" value="4.00"></td>
+      </tr>
+    </table>
+  </form>
+</body>
+</html>

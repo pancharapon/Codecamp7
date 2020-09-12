@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+form {
+  width: 50%;
+  margin: 20px auto;
+  border: 3px solid #AAAAAA;
+  background-color: #DDDDDD;
+  border-radius: 6px;
+  box-shadow: 4px 4px 8px 0px rgba( 0, 0, 0, 0.2 );
+}
+
+.red {
+  color: red;
+}
+
+table {
+  background-color: white;
+  padding: 15px 15px 0 20px;
+  margin: 5px;
+}
+
+tr td {
+  padding: 3px 0;
+}
+
+
+tr td:first-child {
+  width: 11vw;
+}
+
+tr td:last-child {
+  width: 40vw;
+}
+
+input[type=text], select {
+  width: 15vw;
+}
+
+.SETUP {
+  background-color: #DDDDDD;
+  padding: 5px 6px;
+  color: #323b40;
+  border: none;
+  border-top: 1px solid #323b40;
+}
+
+.space1 {
+  padding: 8px 0;
+}
+
+.space2 {
+  padding-top: 8px;
+}
+
+button {
+  font-size: 10px;
+}
+
+.Scoring {
+  width: 6.5vw;
+}
